@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>943</title>
+</head>
+<body>
+
+<h3>Персональные данные преступника:</h3>
+<label>Фамилия:<br /><input type="text" name="surname" maxlength="40"/></label><br />
+<label>Имя:<br /><input type="text" name="name" maxlength="40"/></label><br />
+<label>Кличка:<br /><input type="text" name="nick" maxlength="40"/></label><br />
+
+<h3>Внешние данные:</h3>
+Рост: 
+<input type="number" name="growth" min="50" max="250"><br />
+<br />Цвет волос:
+<select name="hair">
+<option value="blond">Блондин</option>
+<option value="brunet">Брюнет</option>
+<option value="red">Рыжий</option>
+<option value="brown">Шатен</option>
+</select><br />
+<br />Цвет глаз:
+<select name="eyes">
+<option value="blue">Голубые</option>
+<option value="hazel">Карие</option>
+<option value="green">Зелёные</option>
+<option value="grey">Серые</option>
+</select><br />
+
+<h3>Особые приметы:</h3>
+<p>Выберете из списка особые приметы:</p>
+<select name="signs" size="3" multiple>
+<option value="tatoo">Тутаировка</option>
+<option value="scar">Шрам</option>
+<option value="walk">Походка</option>
+</select><br />
+<p>Другие приметы:</p>
+<textarea name="message" rows="10" cols="30">Введите другие приметы преступника...</textarea>
+
+<h3>Другие данные:</h3>
+Гражданство:
+<input type="text" name="citizenship" size="15" maxlength="30"/>
+<br />
+<br />Дата рождения:
+<input type="date" name="date"/>
+<br />
+<br />Место рождения:
+<input type="text" name="area" size="15" maxlength="30"/>
+<br />
+<br />Последнее место жительства:
+<input type="text" name="area" size="15" maxlength="30"/>
+<br />
+
+<p>Знание языков:</p>
+<select name="language" size="4" multiple>
+<option value="ru">Русский</option>
+<option value="en">Английский</option>
+<option value="fr">Французский</option>
+<option value="gr">Немецкий</option>
+<option value="ua">Украинский</option>
+<option value="is">Испанский</option>
+<option value="it">Итальянский</option>
+</select><br />
+<p>Другие языки:</p>
+<textarea name="message" rows="5" cols="20"></textarea>
+
+</body>
+</html>
